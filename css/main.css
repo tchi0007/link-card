@@ -50,3 +50,40 @@ a.link-card {
   font-family: sans-serif;
   border-radius: 8px;
 }
+
+h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 0;
+  margin: 0 0 1rem;
+  font-size: .875rem;
+  border: solid #9a816d;
+  border-width: 2px 0;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  font-style: italic;
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}

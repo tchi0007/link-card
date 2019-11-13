@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Georgia;
+  line-height: 1.5;
+  background-color: #f0eee8;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
+}

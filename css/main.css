@@ -16,3 +16,37 @@ a {
   text-decoration: none;
   color: #512200;
 }
+
+a.link-card {
+  display: inline-block;
+}
+
+.link-card {
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 28em;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+}
+
+.btn {
+  display: block;
+  padding: .4em .75em .5em;
+  margin: auto;
+  width: 8em;
+  color: white;
+  background-color: #785439;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  border-radius: 8px;
+}
